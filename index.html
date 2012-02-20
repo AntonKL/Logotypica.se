@@ -1,0 +1,46 @@
+<!doctype html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>Håkan Schallinger</title>
+
+		<!-- LESS converted to css and minified via build script -->
+		<link rel="stylesheet/less" href="less/style.less">
+		<script src="js/libs/less.js"></script>
+		<!-- end LESS -->
+
+		<script src="js/libs/modernizr-v2.5.3.js"></script>
+	</head>
+
+	<body>
+		<div id="wrapper">
+	
+			<a href="http://dev7studios.com" id="dev7link" title="Go to dev7studios">dev7studios</a>
+
+			<div class="slider-wrapper theme-default">
+				<div class="ribbon"></div>
+				<div id="slider" class="nivoSlider">
+					<img src="images/toystory.jpg" alt="" />
+					<a href="http://dev7studios.com"><img src="images/up.jpg" alt="" title="This is an example of a caption" /></a>
+					<img src="images/walle.jpg" alt="" data-transition="slideInLeft" />
+					<img src="images/nemo.jpg" alt="" title="#htmlcaption" />
+				</div>
+				<div id="htmlcaption" class="nivo-html-caption">
+					<strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>.
+				</div>
+			</div>
+
+		</div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+		<script type="text/javascript" src="js/libs/jquery.nivo-v2.7.1.min.js"></script>
+		<script type="text/javascript">
+			$(window).load(function() {
+				$('#slider').nivoSlider();
+			});
+		</script>
+	</body>
+</html>
