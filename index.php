@@ -41,17 +41,23 @@
 					</div>
 				</div>
 			</div>
-			<footer>Copyright 2012 Logotypica &copy;. Alla rättigheter är reserverade.</footer>
+			<footer>Copyright &copy; 2012 Logotypica.</footer>
 		</div>
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 
-		<script src="js/libs/jquery.nivo.slider.js"></script>
+		<script src="js/libs/jquery.nivo-v2.7.1.min.js"></script>
 
 		<script type="text/javascript">
 			$(window).load(function() {
-				$('#slider').nivoSlider();
+				$('#slider').nivoSlider({
+					effect: 'fade,sliceDown', // Specify sets like: 'fold,fade,sliceDown'
+					pauseTime: 5000, // How long each slide will show
+					pauseOnHover: false, // Stop animation while hovering
+				});
 			});
+
+			
 		</script>
 	</body>
 </html>
