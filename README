@@ -1,0 +1,12 @@
+# [Schallinger](http://schallinger.se)
+
+
+## Developers notes
+
+* Nivo slider is slightly modified to allow transparent background. Due to this modification, seamless upgrade to a newer version is not possible without prior fix.
+
+
+## Project information
+
+* Web: http://schallinger.se
+* Developers: http://noviumdesign.se

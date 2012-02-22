@@ -1,6 +1,6 @@
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
 
-html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;background-color: #F9F9F9 }
 body { margin: 0;}
 
 ::-moz-selection { background: #fe57a1; color: #fff; text-shadow: none; }
@@ -15,7 +15,8 @@ img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; }
 @import "nivo";
 
 body {
-	font:0.8em "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font:0.8em Georgia, Helvetica, Arial, sans-serif;
+	line-height:1.4em;
 	font-weight: 300;
 	color:#222;
 }
@@ -23,14 +24,43 @@ body {
 #wrapper {
 	width: 1000px;
 	margin: auto;
-
-	.left, .right {
-		float: left;
+	
+	.upper {
+		.left, .right {
+			float: left;
+		}
+	
+		.left {
+			width: 250px;
+			
+			nav {
+				margin: 10px 0px 0px 0px;
+			}
+			
+			p {
+				margin: 0;
+			}
+			
+			.desc {
+				margin: 100px 0 0 0;
+			}
+			
+			.contact {
+				margin: 100px 0 0 0;
+			}
+			
+			section {
+				margin: 15px 0 0 0;
+			}
+		}
 	}
-
-	.left {
-		width: 250px;
+	
+	footer {
+		margin: 50px 0 0 0;
+		color: #686868;
 	}
+}
+
 
 	.right {
 		width: 750px;
