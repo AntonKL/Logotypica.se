@@ -4,6 +4,8 @@
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="description" content="Håkan Schallinger är designer och utvecklar koncept för grafiska identiteter samt förpackningsdesign.">
+		<meta name="keywords" content="förpackningsdesign,grafisk profil,logotyp,logotype,illustration">
 		<link rel="icon" href="favicon.png" />
 		<title>Håkan Schallinger</title>
 
@@ -17,7 +19,7 @@
 		<div id="wrapper">
 			<div class="upper clearfix">
 				<div class="left">
-					<nav>Logotypica</nav>
+					<header>Logotypica <span class="reg">®</span></header>
 					<div class="desc">Håkan Schallinger är en stockholmsbaserad designer som arbetar med förpackningsdesign och grafiska identiteter. Han har utvecklat designkoncept för varumärken som ProViva, Felix och Skånemejerier.</div>
 					<div class="contact">
 						<p>Tjänster:</p>
@@ -37,12 +39,16 @@
 					<div class="slider-wrapper theme-default">
 						<div class="ribbon"></div>
 						<div id="slider" class="nivoSlider">
-							<img src="images/projects/leafs.png" alt="" />
-							<img src="images/projects/cider.jpg" alt="" />
-							<img src="images/projects/rabbit.png" alt="" />
-							<img src="images/projects/lll.jpg" alt="" />
-							<img src="images/projects/etac.jpg" alt="" />
-							<img src="images/projects/skanemejerier.jpg" alt="" />
+							<img src="images/projects/leafs.png" alt="Mönster" />
+							<img src="images/projects/cider.jpg" alt="Cider" />
+							<img src="images/projects/rabbit.png" alt="Logotyp" />
+							<img src="images/projects/lll.jpg" alt="Ljus Liten Lager" />
+							<img src="images/projects/etac.jpg" alt="Etac" />
+							<img src="images/projects/skanemejerier.jpg" alt="Skånemejerier" />
+							<img src="images/projects/hamilton.png" alt="Lady Hamilton" />
+							<img src="images/projects/svegro.png" alt="Svegro" />
+							<img src="images/projects/bocca.jpg" alt="Bocca" />
+							<img src="images/projects/gant.jpg" alt="Gant" />
 						</div>
 					</div>
 				</div>
