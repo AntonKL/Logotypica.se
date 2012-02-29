@@ -1,4 +1,4 @@
-# [Schallinger](http://logotypica.se)
+# [Håkan Schallinger](http://logotypica.se)
 
 
 ## Developers notes
