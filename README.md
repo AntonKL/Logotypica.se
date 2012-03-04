@@ -3,7 +3,7 @@
 
 ## Developers notes
 
-Less is compiled and minified at clients website.
+Less is compiled and minified client side
 
 
 ## Project information
