@@ -3,8 +3,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, nav, sectio
 html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;background-color: #FFF }
 body { margin: 0;}
 
-::-moz-selection { background: #ADC257; color: #fff; text-shadow: none; }
-::selection { background: #ADC257; color: #fff; text-shadow: none; }
+::-moz-selection { background: #76A938; color: #fff; text-shadow: none; }
+::selection { background: #76A938; color: #fff; text-shadow: none; }
 
 img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; }
 
@@ -15,14 +15,23 @@ img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; }
 @import "nivo";
 
 body {
-	font:0.8em Georgia, Helvetica, Arial, sans-serif;
-	line-height:1.37em;
+	font:0.83em Georgia, Helvetica, Arial, sans-serif;
+	line-height:1.35em;
 	font-weight: 300;
-	color:#5c5c5d;
+	color:#7B7B7D;
+}
+
+ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+li {
+	list-style: none;
 }
 
 #wrapper {
-	width: 1000px;
+	width: 1200px;
 	margin: auto;
 	
 	.upper {
@@ -31,45 +40,49 @@ body {
 		}
 	
 		.left {
-			width: 270px;
+			padding: 30px 0px 0px 180px;
+			margin: 20px 0px 0px 0px;
+			width: 320px;
+			height: 670px;
+			background: url('../images/frame.png') bottom left no-repeat;
 			
 			header {
-				margin: 10px 0px 0px 0px;
+				margin: 42px 0px 0px 0px;
 				color: #c7c7c7;
-				
-				.reg {
-					color: #cfcdcd;
-					font-size: 0.9em;
-				}
+				font-family: Berthold;
+				font-size:38px;
+				color: #76A938;
+				line-height: 36px;
 			}
 			
 			p {
-				margin: 0;
+				margin: 15px 0 0 0;
+			}
+
+			.logo {
+				margin: 47px 0 0 0;
 			}
 			
 			.desc {
-				margin: 100px 0 0 0;
+				margin: 0 0 0 3px;
 			}
 			
-			.contact {
-				margin: 15px 0 0 0;
-			}
-			
-			section {
-				margin: 15px 0 0 0;
+			.darker {
+				color: #404042;
 			}
 		}
 	}
-	
+
 	footer {
-		margin: 50px 0 0 0;
-		color: #c7c7c7;
+		margin: 8px 0 0 0;
+		padding: 0 0 0 180px;
+		color: #CFCFD1;
 	}
 }
 
 
 	.right {
-		width: 730px;
+		width: 700px;
 
 		.theme-default #slider {
     		margin:30px auto 0 auto;
